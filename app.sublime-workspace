@@ -1,0 +1,662 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ap",
+				"aProductsPrice"
+			],
+			[
+				"aP",
+				"aProductsName"
+			],
+			[
+				"aPro",
+				"aProductsQty"
+			],
+			[
+				"produ",
+				"productId"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"che",
+				"checkOut"
+			],
+			[
+				"a",
+				"appendChild"
+			],
+			[
+				"ch",
+				"checkOut"
+			],
+			[
+				"sh",
+				"showBill"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"target",
+				"targetIndex"
+			],
+			[
+				"ta",
+				"targetIndex"
+			],
+			[
+				"i",
+				"lId"
+			],
+			[
+				"s",
+				"store"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"sho",
+				"showPrice"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"si",
+				"font-size"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"pr",
+				"Products"
+			],
+			[
+				"pri",
+				"Price"
+			],
+			[
+				"apro",
+				"aProductsName"
+			],
+			[
+				"tar",
+				"targetIndex"
+			],
+			[
+				"pro",
+				"Products"
+			],
+			[
+				"Q",
+				"Quantity"
+			],
+			[
+				"prduct",
+				"products"
+			],
+			[
+				"create",
+				"createProducts"
+			],
+			[
+				"remove",
+				"removeChild"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"shop",
+				"shoping"
+			],
+			[
+				"cret",
+				"createElement"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"store",
+				"store"
+			],
+			[
+				"la",
+				"localStorage"
+			],
+			[
+				"div",
+				"divAddProducts"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"P",
+				"Price"
+			],
+			[
+				"prd",
+				"productName"
+			],
+			[
+				"crea",
+				"createElement"
+			],
+			[
+				"o",
+				"oProduct"
+			],
+			[
+				"ad",
+				"addProductsToArray"
+			],
+			[
+				"addPro",
+				"addProductsToArray"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"aPr",
+				"aProductsDesc"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"aProducts",
+				"aProducts"
+			],
+			[
+				"mo",
+				"movevaluetomatrix"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"fr",
+				"frame\tTag"
+			],
+			[
+				"fra",
+				"frame\tTag"
+			],
+			[
+				"frame",
+				"frameset\tTag"
+			],
+			[
+				"qu",
+				"qualification"
+			],
+			[
+				"do",
+				"director"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"ba",
+				"bank"
+			],
+			[
+				"str",
+				"str"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"bor",
+				"border-style"
+			],
+			[
+				"borde",
+				"border-width"
+			],
+			[
+				"cha",
+				"char"
+			],
+			[
+				"balace",
+				"balance"
+			],
+			[
+				"p",
+				"putdata"
+			],
+			[
+				"length",
+				"length-1"
+			],
+			[
+				"le",
+				"length-1"
+			],
+			[
+				"len",
+				"length-2"
+			],
+			[
+				"no",
+				"notleap"
+			],
+			[
+				"char",
+				"character"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"height",
+				"height"
+			],
+			[
+				"v",
+				"video\tTag"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"img",
+				"img-thumbnail"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"background-ma",
+				"background-image"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"hei",
+				"max-height"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"co",
+				"collapse"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"en",
+				"end"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 212.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			]
+		],
+		"width": 513.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/lohit/New Volume/multer.js",
+		"/media/lohit/New Volume/lab/project/js/my shop/home.js",
+		"/media/lohit/New Volume/lab/project/snake game/snake.c",
+		"/home/lohit/Desktop/Client ID",
+		"/media/lohit/New Volume/CQ-Project/bin/www",
+		"/etc/apt/sources.list",
+		"/media/lohit/New Volume/lab/project/NodeJS/serverProject/index.html",
+		"/media/lohit/New Volume/lab/project/NodeJS/serverProject/server.js",
+		"/media/lohit/New Volume/lab/project/NodeJS/serverProject/css/base.css",
+		"/media/lohit/New Volume/lab/project/js/my shop/cart.html",
+		"/media/lohit/New Volume/lab/project/js/my shop/cart.js",
+		"/media/lohit/New Volume/lab/project/js/my shop/home.html",
+		"/media/lohit/New Volume/lab/project/js/manage-products/script.js",
+		"/media/lohit/New Volume/lab/project/js/manage-products/manage-products.html",
+		"/media/lohit/New Volume/lab/project/webcrawler.c",
+		"/media/lohit/New Volume/lab/snake game/webscroller1.c",
+		"/media/lohit/New Volume/lab/snake game/snake.c",
+		"/media/lohit/New Volume/lab/project/js/untitledchk.js",
+		"/var/www/html/school/index.html",
+		"/media/lohit/New Volume/lab/p.c",
+		"/media/lohit/New Volume/lab/snake game/snakegame.c",
+		"/media/lohit/New Volume/lab/cube.c",
+		"/media/lohit/New Volume/lab/ideone_5YVZpr.c",
+		"/media/lohit/New Volume/lab/struct.c",
+		"/home/lohit/Desktop/sum.c",
+		"/home/lohit/Desktop/t.c",
+		"/media/lohit/New Volume/blogs/blog3",
+		"/media/lohit/New Volume/script files/script2.html",
+		"/media/lohit/New Volume/script files/script1.html",
+		"/media/lohit/New Volume/if/middlealign.html",
+		"/media/lohit/New Volume/if/script.html",
+		"/media/lohit/New Volume/if/cse.html",
+		"/media/lohit/New Volume/if/align.html",
+		"/media/lohit/New Volume/if/css.html",
+		"/media/lohit/New Volume/if/frame.html",
+		"/media/lohit/New Volume/if/table.html",
+		"/media/lohit/New Volume/if/content.html",
+		"/media/lohit/New Volume/if/nestedorder.html",
+		"/media/lohit/New Volume/if/orderlist.html",
+		"/media/lohit/New Volume/if/bill.html",
+		"/media/lohit/New Volume/if/useprebr.html",
+		"/media/lohit/New Volume/if/businessletter.html",
+		"/media/lohit/New Volume/lab/operator.cpp",
+		"/media/lohit/New Volume/if/css.css",
+		"/media/lohit/New Volume/study related files/headfirst/chapter9/lounge-complete/lounge.html",
+		"/media/lohit/New Volume/lab/college.cpp",
+		"/media/lohit/New Volume/study related files/headfirst/chapter10/lounge-complete/lounge.html",
+		"/media/lohit/New Volume/lab/virtual.cpp",
+		"/media/lohit/New Volume/lab/hinheritance.cpp",
+		"/media/lohit/New Volume/lab/inheritance.cpp",
+		"/media/lohit/New Volume/study related files/headfirst/chapter9/lounge-complete/lounge.css",
+		"/var/www/html/school/school.css",
+		"/media/lohit/New Volume/study related files/headfirst/chapter7/lounge.css",
+		"/media/lohit/New Volume/if/bottomalign.html",
+		"/media/lohit/New Volume/html/businessletter.html",
+		"/media/lohit/New Volume/lab/leftupper.html",
+		"/media/lohit/New Volume/lab/rightupper.html",
+		"/media/lohit/New Volume/lab/js.html",
+		"/media/lohit/New Volume/lab/frames.html",
+		"/media/lohit/New Volume/lab/js.js",
+		"/var/www/html/school/realloc.c",
+		"/media/lohit/New Volume/lab/freq.c",
+		"/media/lohit/New Volume/lab/link.c",
+		"/media/lohit/New Volume/lab/game.c",
+		"/media/lohit/New Volume/lab/linklist.c",
+		"/media/lohit/New Volume/lab/decimaltobinary.c",
+		"/media/lohit/New Volume/lab/Snake-1.c",
+		"/media/lohit/New Volume/lab/freq1.c",
+		"/media/lohit/New Volume/lab/staticdata.cpp",
+		"/media/lohit/New Volume/lab/bank.cpp",
+		"/var/www/html/school/web/about_us/aboutus.html",
+		"/media/lohit/New Volume/lab/even.c",
+		"/media/lohit/New Volume/lab/cons.cpp",
+		"/media/lohit/New Volume/lab/sum.c",
+		"/media/lohit/New Volume/lab/swap.c",
+		"/media/lohit/New Volume/lab/abc.cpp",
+		"/media/lohit/New Volume/lab/2.cpp",
+		"/media/lohit/New Volume/lab/squareroot.c",
+		"/media/lohit/New Volume/lab/revrecursion.c",
+		"/media/lohit/New Volume/lab/binaytodecimal.c",
+		"/media/lohit/New Volume/lab/lower_to_upper.c",
+		"/media/lohit/New Volume/lab/strlen.c",
+		"/media/lohit/New Volume/lab/equilibrium.c",
+		"/media/lohit/New Volume/lab/leap.c",
+		"/media/lohit/New Volume/lab/strrev.c",
+		"/media/lohit/New Volume/lab/merge.c",
+		"/media/lohit/New Volume/weblab/bill.html",
+		"/media/lohit/New Volume/lab/1.cpp",
+		"/media/lohit/New Volume/lab/matrixmul.c",
+		"/media/lohit/New Volume/lab/recursion.c",
+		"/media/lohit/New Volume/lab/2ndlargest.c",
+		"/media/lohit/New Volume/lab/insertion.c",
+		"/media/lohit/New Volume/lab/negativepositive.c",
+		"/media/lohit/New Volume/lab/unique.c",
+		"/media/lohit/New Volume/lab/armstrong.c",
+		"/media/lohit/New Volume/lab/armstrong1.c",
+		"/media/lohit/New Volume/lab/repeatedstring.c",
+		"/media/lohit/New Volume/lab/removestring.c",
+		"/media/lohit/New Volume/lab/delete1char.c",
+		"/media/lohit/New Volume/lab/string.c",
+		"/media/lohit/New Volume/lab/simpleinterest.cpp",
+		"/media/lohit/New Volume/lab/arrayobject.cpp",
+		"/media/lohit/New Volume/lab/ascii.c",
+		"/media/lohit/New Volume/lab/fizzbuzz.c",
+		"/media/lohit/New Volume/lab/prime.c",
+		"/media/lohit/New Volume/lab/swap1andlast.c",
+		"/media/lohit/New Volume/lab/month.c",
+		"/media/lohit/New Volume/lab/uppertolower.c",
+		"/media/lohit/New Volume/coding/school/school.css",
+		"/media/lohit/New Volume/coding/school/main.html",
+		"/media/lohit/New Volume/coding/school/test.html",
+		"/media/lohit/New Volume/coding/hi.html",
+		"/media/lohit/New Volume/study related files/headfirst/chapter2/completelounge/beverages/elixir.html",
+		"/media/lohit/New Volume/coding/hello.html",
+		"/home/lohit/Desktop/bura.c",
+		"/media/lohit/New Volume/feed.html",
+		"/media/lohit/New Volume/web2/home.html",
+		"/home/lohit/Desktop/19.c",
+		"/home/lohit/Desktop/untitled",
+		"/run/user/1000/gvfs/ftp:host=ftp.epizy.com,user=epiz_21279493/htdocs/index.html",
+		"/run/user/1000/gvfs/ftp:host=ftp.epizy.com,user=epiz_21279493/htdocs/pc.css",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A002%2C005%5D/Internal storage/WhatsApp/Media/WhatsApp Documents/Download File.msi",
+		"/media/lohit/New Volume/practicle/ds/18.rtf",
+		"/media/lohit/New Volume/a/login.html",
+		"/media/lohit/New Volume/a/signup.html",
+		"/media/lohit/New Volume/a/home.html",
+		"/media/lohit/New Volume/practicle/output/18.c",
+		"/media/lohit/New Volume/practicle/output/17.c"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"local",
+			"data"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

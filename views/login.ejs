@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <meta name="viewport" http-equiv="X-UA-Compatible" content="ie=edge, width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <style>
+
+
+        .google-btn{
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+            background: #ff5353;
+        }
+    </style>
+
+</head>
+<body style="text-align: center;">
+<div class="container-fluid">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="/"><i class="fa fa-home" aria-hidden="true"></i>Mr Brown's</a>
+            <%if(!user){%>
+            <a class="nav-item nav-link" href="/admin/login">Admin</a>
+            <%}else{%>
+            <a class="nav-item nav-link" href="/user/logout">Logout</a>
+            <%}%>
+            <a class="nav-item nav-link" href="signup">Signup</a>
+        </div>
+    </div>
+</nav>
+</div>
+<h1>Welcome to Login Page</h1>
+
+<br>
+<br>
+
+<form action="/user/local" method="post">
+    UserName <br><br> <input type="text" name="username"><br><br>
+    Password <br><br> <input type="password" name="password"><br><br>
+    <input type="submit" value="Login">
+</form>
+
+<br>
+
+<h2>OR</h2>
+<a href="/user/google" class="google-btn">Google+</a>
+<br><br>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h6 class="text-uppercase font-weight-bold"><i class="fa fa-road"></i> Mr Brown's</h6>
+                <br>
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                            <li><a href="">Product</a></li>
+                            <li><a href="">Benefits</a></li>
+                            <li><a href="">Partners</a></li>
+                            <li><a href="">Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                            <li><a href="">Documentation</a></li>
+                            <li><a href="">Support</a></li>
+                            <li><a href="">Legal Terms</a></li>
+                            <li><a href="">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+               
+                <br>
+            </div>
+            <div class="col-md-4">
+                 <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <br>
+          <p>
+            <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fa fa-envelope mr-3"></i> lohitbura@gmail.com</p>
+          <p>
+            <i class="fa fa-phone mr-3"></i> + 91 972 901 8415</p>
+          <p>
+            <i class="fa fa-print mr-3"></i> + 91 972 901 8415</p>
+            </div>
+            <div class="col-md-3">
+                <h6 class="text-uppercase font-weight-bold">Follow Us</h6>
+                <br>
+                
+            
+            <div>
+                <div style="text-align: center;">
+            
+                    <a href="https://www.facebook.com/dev.bura.9"><i class="fa fa-facebook fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com/lohitbura"><i class="fa fa-twitter fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+                   <a href="" ><i class="fa fa-github fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/lohitbura07/" ><i class="fa fa-instagram fa-lg"></i></a>
+                
+            </div>
+        </div>
+
+        </div>
+        </div>
+    </div>
+    
+</footer>
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

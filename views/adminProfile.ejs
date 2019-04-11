@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+    <style>.custom-file-upload {
+            border: 5px solid #ccc;
+            display: inline-block;
+            padding: 6px 12px;
+            cursor: pointer;
+        }</style>
+        
+</head>
+<body>
+
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="/"><i class="fa fa-home" aria-hidden="true"></i>Mr Brown's</a>
+                <a class="nav-item nav-link" href="../admin/order">Notification</a>
+                <a class="nav-item nav-link" href="../admin/logout">Logout</a>
+
+
+            </div>
+        </div>
+    </nav>
+</div>
+
+<h1 style="text-align: center">Welcome</h1>
+<div align="center">
+<form action="/admin/product" method="post" enctype="multipart/form-data">
+   Product Name :<br> <input type="text" name="productName">
+   <br>
+    Quantity :<br> <input type="number" name="Quantity">
+    <br>
+    Price :<br> <input type="number" name="Price">
+    <br><br>
+
+    <label class="custom-file-upload">
+        <input type="file" name="productPic" multiple="multiple">
+
+    </label>
+    <br>
+    <input type="submit">
+</form>
+</div>
+
+<div class="container" id="mainBody">
+
+</div>
+<br>
+<br>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h6 class="text-uppercase font-weight-bold"><i class="fa fa-road"></i> Mr Brown's</h6>
+                <br>
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                            <li><a href="">Product</a></li>
+                            <li><a href="">Benefits</a></li>
+                            <li><a href="">Partners</a></li>
+                            <li><a href="">Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                            <li><a href="">Documentation</a></li>
+                            <li><a href="">Support</a></li>
+                            <li><a href="">Legal Terms</a></li>
+                            <li><a href="">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+               
+                <br>
+            </div>
+            <div class="col-md-4">
+                 <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <br>
+          <p>
+            <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fa fa-envelope mr-3"></i> lohitbura@gmail.com</p>
+          <p>
+            <i class="fa fa-phone mr-3"></i> + 91 972 901 8415</p>
+          <p>
+            <i class="fa fa-print mr-3"></i> + 91 972 901 8415</p>
+            </div>
+            <div class="col-md-3">
+                <h6 class="text-uppercase font-weight-bold">Follow Us</h6>
+                <br>
+                
+            
+            <div>
+                <div style="text-align: center;">
+            
+                    <a href="https://www.facebook.com/dev.bura.9"><i class="fa fa-facebook fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com/lohitbura"><i class="fa fa-twitter fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+                   <a href="" ><i class="fa fa-github fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/lohitbura07/" ><i class="fa fa-instagram fa-lg"></i></a>
+                
+            </div>
+        </div>
+
+        </div>
+        </div>
+    </div>
+    
+</footer>
+
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    window.onload = function () {
+        getProducts(0);
+        
+    }
+
+    function getProducts(page_no) {
+        $.ajax({
+            method: "GET",
+            url : "../show-product",
+            data: {page: page_no},
+            success: function(data, status){
+                console.log(page_no);
+                console.log(data);
+                createPage(data);
+            }
+        });
+
+    }
+
+
+   function pEdit(id,page_no)
+   {
+
+
+
+   }
+    
+    function pDelete(id,page_no)
+    {
+
+        console.log(id);
+         
+        $.ajax({
+            method: "GET",
+            url : "../cart-list/delete",
+            data: {id: id},
+            success: function(data, status){
+                getProducts(page_no);
+            }
+        });
+        
+    }
+
+
+
+
+    function createPage(data) {
+        $("#mainBody").children().remove();
+
+        var products = data.products;
+        var pages = data.pages;
+        var current = data.current;
+        var total = data.total;
+        var count = data.count;
+
+
+        var result = '<div id="card-show" class="card-deck">';
+
+        for (var i = 0; i < count; i++) {
+
+            result += '<div style="min-width: 250px; width: 18rem" id="card" class="card col-4 mt-4">';
+            result += '<img style="margin: 0 auto; width: 150px; height: 150px" class="card-img-top" src="/productUploads/' + products[i].image[0] + '"alt="Card image cap">';
+            result += '<div class="card-body">';
+            result += '<h5 style="color:#000000;" class="card-title">' + products[i].name + '</h5>';
+            result += '<p style="color:#000000;" class="card-description">Quantity = ' + products[i].quantity + '</p>';
+            result += '<div class="clearfix">';
+            result += '<p style="color:#000000;" class="card-description">Price = ' + products[i].price + '</p>';
+            result +='<br>'
+            result += '<button onclick="pEdit(this.id,' + current + ')" id='+products[i]._id+'>Edit</button>&nbsp;&nbsp;&nbsp;'
+            result += '<button onclick="pDelete(this.id,' + current + ')" id='+products[i]._id+'>Delete</button>'
+            result += '</div>';
+            result += '</div>';
+            result += '</div>';
+        }
+        result += '</div>';
+
+        nav = '<nav aria-label="">'
+        nav += '<ul class="pagination justify-content-end">'
+// nav += '<li class="page-item" onclick="getProducts(0)"><a class="page-link" href="#">First</a></li>'
+
+        for (var i = Math.max(0, current - 5); i < Math.min(current + 5, pages); i++){
+            if (i == current){
+                nav += '<li class="page-item active"><a class="page-link" href="#">'
+                    + (i + 1)
+                    +'<span class="sr-only">(current)</span></a></li>'
+            }else{
+                nav += '<li class="page-item" onclick="getProducts('
+                    + i
+                    + ')"><a class="page-link" href="#">' + (i + 1) +'</a></li>'
+            }
+        }
+        nav += '</ul>'
+        nav += '</nav>'
+        result += nav;
+
+        $("#mainBody").append(result);
+
+    }
+
+</script>
+
+
+
+
+
+</body>
+</html>
